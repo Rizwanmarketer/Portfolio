@@ -11,7 +11,7 @@ function SocialLinks() {
 
       {/* 1. Facebook Button */}
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/rizwanullah.Digitalmarketer"
         target="_blank"
         rel="noopener noreferrer"
         className="
