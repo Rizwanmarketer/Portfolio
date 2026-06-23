@@ -1,6 +1,7 @@
 import SocialLinks from "../components/SocialLinks";
 import profileImage from "../assets/profile/rizwan-ullah-profile.webp";
 import { useState, useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import gsap from "gsap";
 
@@ -31,6 +32,42 @@ function Hero() {
     return () => clearInterval(interval);
 
   }, []);
+
+  useEffect(() => {
+
+  const counters = document.querySelectorAll(".counter");
+
+  counters.forEach(counter => {
+
+    let start = 0;
+
+    const end = +counter.dataset.target;
+
+    const updateCounter = () => {
+
+      if (start < end) {
+
+        start += 1;
+
+        counter.innerText = start;
+
+        setTimeout(updateCounter, 30);
+
+      }
+
+      else {
+
+        counter.innerText = end;
+
+      }
+
+    };
+
+    updateCounter();
+
+  });
+
+}, []);
 
   return (
     <section
@@ -190,9 +227,83 @@ function Hero() {
 
             </div>
 
-            <div className="flex justify-center">
-  <SocialLinks />
+           {/* Stats Cards */}
+<div className="grid grid-cols-2 gap-4 mt-10">
+
+  <div className="glass rounded-3xl p-6 text-center stat-card">
+    <h3 className="counter text-4xl font-bold text-cyan-400" data-target="3">
+      0
+    </h3>
+    <p className="text-xs uppercase tracking-[3px] text-gray-400 mt-2">
+      Certifications
+    </p>
+  </div>
+
+  <div className="glass rounded-3xl p-6 text-center stat-card">
+    <h3 className="counter text-4xl font-bold text-cyan-400" data-target="18">
+      0
+    </h3>
+    <p className="text-xs uppercase tracking-[3px] text-gray-400 mt-2">
+      Core Skills
+    </p>
+  </div>
+
+  <div className="glass rounded-3xl p-6 text-center stat-card">
+    <h3 className="counter text-4xl font-bold text-cyan-400" data-target="12">
+      0
+    </h3>
+    <p className="text-xs uppercase tracking-[3px] text-gray-400 mt-2">
+      Marketing Tools
+    </p>
+  </div>
+
+  <div className="glass rounded-3xl p-6 text-center stat-card">
+    <h3 className="counter text-4xl font-bold text-cyan-400" data-target="95">
+      0
+    </h3>
+    <p className="text-xs uppercase tracking-[3px] text-gray-400 mt-2">
+      Learning Driven %
+    </p>
+  </div>
+
 </div>
+
+{/* Tools Slider */}
+
+<div className="tool-slider mt-10">
+
+  <div className="tool-track">
+
+    <span>Meta Business Suite</span>
+    <span>Facebook Ads Manager</span>
+    <span>Google Ads</span>
+    <span>Google Analytics 4</span>
+    <span>Google Search Console</span>
+    <span>Google Tag Manager</span>
+    <span>TikTok Ads Manager</span>
+    <span>Canva</span>
+    <span>CapCut</span>
+    <span>Adobe Express</span>
+    <span>PhotoRoom</span>
+    <span>ChatGPT</span>
+    <span>Claude</span>
+    <span>Google Flow</span>
+
+    {/* duplicate */}
+    <span>Meta Business Suite</span>
+    <span>Facebook Ads Manager</span>
+    <span>Google Ads</span>
+    <span>Google Analytics 4</span>
+    <span>Google Search Console</span>
+    <span>Google Tag Manager</span>
+    <span>TikTok Ads Manager</span>
+    <span>Canva</span>
+
+  </div>
+
+</div>
+
+
 
           </div>
 
