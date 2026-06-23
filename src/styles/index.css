@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#020617;
+  color:white;
+  overflow-x:hidden;
+}
+.container-custom{
+  width:100%;
+  max-width:1280px;
+  margin:auto;
+  padding-left:24px;
+  padding-right:24px;
+}
+body{
+    background:
+    radial-gradient(circle at top left,#1d4ed820,transparent 30%),
+    radial-gradient(circle at bottom right,#7c3aed20,transparent 30%),
+    #020617;
+}
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#020617;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
+}
+.glass{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.1);
+backdrop-filter:blur(20px);
+}
+
+.gradient-text{
+background:linear-gradient(
+90deg,
+#3b82f6,
+#8b5cf6
+);
+-webkit-background-clip:text;
+color:transparent;
+}
+@keyframes floatAnimation{
+0%{
+transform:translateY(0px);
+}
+50%{
+transform:translateY(-15px);
+}
+100%{
+transform:translateY(0px);
+}
+}
+
+.profile-float{
+animation:floatAnimation 6s ease-in-out infinite;
+}
+@media (max-width:1024px){
+
+.hero-section{
+padding-top:140px;
+}
+
+}
+.fade-profession{
+
+animation:fadeProfession 1s ease;
+
+}
+
+@keyframes fadeProfession{
+
+0%{
+opacity:0;
+transform:translateY(20px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+.fade-profession {
+  animation: professionFade 4s infinite;
+}
+
+@keyframes professionFade {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+}
+.profile-wrapper{
+  animation: profileFloat 4s ease-in-out infinite;
+}
+
+@keyframes profileFloat{
+  0%,100%{
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(-15px);
+  }
+}
+.rotate-ring {
+  animation: rotateRing 10s linear infinite;
+}
+
+@keyframes rotateRing {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.whatsapp-float{
+  animation: whatsappFloat 2.4s linear infinite;
+}
+
+@keyframes whatsappFloat {
+
+  /* Bottom */
+  0%{
+    transform: translateY(0px);
+  }
+
+  /* Going upward and slowing */
+  50%{
+    transform: translateY(-18px);
+  }
+
+  /* Coming downward and speeding up */
+  100%{
+    transform: translateY(0px);
+  }
+
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.scroll-wave {
+  position: fixed;
+}
+
+.scroll-wave::before,
+.scroll-wave::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 9999px;
+  border: 2px solid rgba(37,99,235,.25);
+  animation: ripple 3s infinite;
+}
+
+.scroll-wave::after {
+  animation-delay: 1.5s;
+}
+
+@keyframes ripple {
+  0%{
+    transform: scale(1);
+    opacity: .5;
+  }
+
+  100%{
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
