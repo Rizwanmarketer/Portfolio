@@ -60,7 +60,7 @@ return ( <section
             <p className="mb-2">Audience Engagement</p>
             <div className="h-3 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-1.5 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="300"
               ></div>
