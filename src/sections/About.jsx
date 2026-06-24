@@ -4,7 +4,7 @@ function About() {
   return (
     <section
       id="about"
-      className="py-20"
+      className="py-32"
     >
       <div className="container-custom">
 
