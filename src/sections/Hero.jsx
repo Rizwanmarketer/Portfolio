@@ -298,7 +298,7 @@ const [learningCount, setLearningCount] = useState(0);
     </h3>
 
     <p className="text-[10px] uppercase tracking-[2px] text-gray-400 mt-2">
-      Marketing Tools
+      Using Tools
     </p>
   </div>
 
@@ -320,56 +320,17 @@ const [learningCount, setLearningCount] = useState(0);
 
 </div>
 
+
           </div>
 
-          {/* Right */}
-          <div className="tool-slider-full mt-16">
-
-  <div className="tool-track">
-
-    <span>Meta Business Suite</span>
-    <span>Facebook Ads Manager</span>
-    <span>Google Ads</span>
-    <span>Google Analytics</span>
-    <span>Google Search Console</span>
-    <span>Google Tag Manager</span>
-    <span>TikTok Ads Manager</span>
-    <span>Canva</span>
-    <span>CapCut</span>
-    <span>Adobe Express</span>
-    <span>PhotoRoom</span>
-    <span>InShot</span>
-    <span>ChatGPT</span>
-    <span>Claude</span>
-    <span>Google Flow</span>
-    <span>n8n</span>
-
-    {/* duplicate */}
-    <span>Meta Business Suite</span>
-    <span>Facebook Ads Manager</span>
-    <span>Google Ads</span>
-    <span>Google Analytics</span>
-    <span>Google Search Console</span>
-    <span>Google Tag Manager</span>
-    <span>TikTok Ads Manager</span>
-    <span>Canva</span>
-    <span>CapCut</span>
-    <span>Adobe Express</span>
-    <span>PhotoRoom</span>
-    <span>InShot</span>
-    <span>ChatGPT</span>
-    <span>Claude</span>
-    <span>Google Flow</span>
-    <span>n8n</span>
-
-  </div>
-
-</div>
+         
+         
 
 
           
 
         </div>
+        
 
       </div>
 

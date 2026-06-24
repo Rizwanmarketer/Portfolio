@@ -39,8 +39,19 @@ function Navbar() {
   const navLink = (id, label) => (
     <li>
       <a
-        href={`#${id}`}
-        onClick={() => setMenuOpen(false)}
+  href={`#${id}`}
+  onClick={(e) => {
+    e.preventDefault();
+
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+
+    setTimeout(() => {
+      setMenuOpen(false);
+    }, 150);
+  }}
         className={`transition-all duration-300 hover:text-blue-500 hover:scale-105 ${
           activeSection === id
 ? "text-blue-500 font-semibold bg-blue-500/10 px-4 py-2 rounded-xl"
