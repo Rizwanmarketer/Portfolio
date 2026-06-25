@@ -42,7 +42,7 @@ function About() {
                 py-2
                 "
               >
-                <p className="text-gray-300 text-lg leading-10">
+                <p className="text-gray-400 text-sm leading-8">
                   I am a passionate
                   <span className="text-blue-400 font-semibold">
                     {" "}Digital Marketer
@@ -66,7 +66,7 @@ function About() {
                 py-2
                 "
               >
-                <p className="text-gray-300 text-lg leading-10">
+                <p className="text-gray-400 text-sm leading-8">
                   I continuously improve my skills by learning modern tools,
                   automation, and emerging technologies. With a
                   detail-oriented mindset and a passion for creativity,

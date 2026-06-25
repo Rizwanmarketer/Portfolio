@@ -1,3 +1,6 @@
+import Loader from "./components/Loader";
+import { useEffect, useState } from "react";
+
 import Navbar from "./components/Navbar";
 import ScrollProgress from "./components/ScrollProgress";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -15,6 +18,18 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  const timer = setTimeout(() => {
+    setLoading(false);
+  }, 2500);
+
+  return () => clearTimeout(timer);
+}, []);
+if (loading) {
+  return <Loader />;
+}
 return ( <div className="overflow-x-hidden"> <ScrollProgress /> <Navbar />
 
   <Hero />

@@ -14,7 +14,7 @@ return ( <section
 
       {/* Marketing Skills */}
       <div
-        className="glass rounded-3xl p-8"
+     className="glass rounded-3xl px-5 py-4 w-full"
         data-aos="zoom-in"
         data-aos-delay="0"
       >
@@ -26,7 +26,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Social Media Marketing</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[95%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -36,7 +36,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Social Media Management</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[93%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -47,7 +47,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Content Planning</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[88%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -58,9 +58,9 @@ return ( <section
 
           <div>
             <p className="mb-2">Audience Engagement</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-1.5 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="300"
               ></div>
@@ -69,7 +69,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Brand Positioning & Awareness</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -80,7 +80,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Paid Advertising</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[92%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -92,7 +92,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Campaign Strategy & Optimization</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -103,7 +103,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Content Creation</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[88%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -114,7 +114,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Copywriting</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[85%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -125,7 +125,7 @@ return ( <section
 
           <div>
             <p className="mb-2">AI Integration</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -136,7 +136,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Funnel Marketing Strategy</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[87%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -147,7 +147,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Conversion Optimization</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[86%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -158,7 +158,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Data Analytics & Reporting</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-blue-600 rounded-full w-[85%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -168,13 +168,14 @@ return ( <section
           </div>
 
         </div>
+        
 
       </div>
 
 
       {/* Soft Skills */}
       <div
-        className="glass rounded-3xl p-8"
+ className="glass rounded-3xl px-5 py-4 w-full"
         data-aos="zoom-in"
         data-aos-delay="200"
       >
@@ -186,7 +187,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Communication Skills</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[95%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -196,7 +197,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Attention To Detail</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[92%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -207,7 +208,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Creative Thinking</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -218,7 +219,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Problem Solving</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -229,7 +230,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Time Management</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[88%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -240,7 +241,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Adaptability</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
@@ -251,7 +252,7 @@ return ( <section
 
           <div>
             <p className="mb-2">Continuous Learning</p>
-            <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+            <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
                 className="h-3 bg-purple-600 rounded-full w-[95%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
