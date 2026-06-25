@@ -49,7 +49,7 @@ return ( <section
             <p className="mb-2">Content Planning</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[88%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[80%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="200"
               ></div>
@@ -94,7 +94,7 @@ return ( <section
             <p className="mb-2">Campaign Strategy & Optimization</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[75%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="600"
               ></div>
@@ -105,7 +105,7 @@ return ( <section
             <p className="mb-2">Content Creation</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[88%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[80%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="700"
               ></div>
@@ -116,7 +116,7 @@ return ( <section
             <p className="mb-2">Copywriting</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[85%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[80%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="800"
               ></div>
@@ -127,7 +127,7 @@ return ( <section
             <p className="mb-2">AI Integration</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[95%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="900"
               ></div>
@@ -138,7 +138,7 @@ return ( <section
             <p className="mb-2">Funnel Marketing Strategy</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[87%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="1000"
               ></div>
@@ -149,7 +149,7 @@ return ( <section
             <p className="mb-2">Conversion Optimization</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-blue-600 rounded-full w-[86%] transition-all duration-[1800ms]"
+                className="h-3 bg-blue-600 rounded-full w-[75%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="1100"
               ></div>
@@ -189,7 +189,7 @@ return ( <section
             <p className="mb-2">Communication Skills</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[95%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
               ></div>
             </div>
@@ -199,7 +199,7 @@ return ( <section
             <p className="mb-2">Attention To Detail</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[92%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[95%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="100"
               ></div>
@@ -210,7 +210,7 @@ return ( <section
             <p className="mb-2">Creative Thinking</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[80%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="200"
               ></div>
@@ -221,7 +221,7 @@ return ( <section
             <p className="mb-2">Problem Solving</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[90%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[80%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="300"
               ></div>
@@ -232,7 +232,7 @@ return ( <section
             <p className="mb-2">Time Management</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[88%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[97%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="400"
               ></div>
@@ -254,7 +254,7 @@ return ( <section
             <p className="mb-2">Continuous Learning</p>
             <div className="h-2 bg-white/10 rounded-full overflow-hidden">
               <div
-                className="h-3 bg-purple-600 rounded-full w-[95%] transition-all duration-[1800ms]"
+                className="h-3 bg-purple-600 rounded-full w-[100%] transition-all duration-[1800ms]"
                 data-aos="fade-right"
                 data-aos-delay="600"
               ></div>
