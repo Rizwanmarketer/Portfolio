@@ -110,7 +110,7 @@ function Contact() {
             <div className="space-y-6 text-gray-300 text-lg sm:text-xl font-medium w-full flex flex-col items-start pl-2 sm:pl-4">
               <div className="flex items-center text-left whitespace-nowrap">
                 <span className="text-xl sm:text-2xl mr-2">🚀</span>
-                <span>Freelance: <span className="text-gray-400 font-normal">Remote</span></span>
+                <span>Freelance: <span className="text-gray-400 font-normal">Available</span></span>
               </div>
 
               <div className="flex items-center text-left whitespace-nowrap">
@@ -120,7 +120,7 @@ function Contact() {
 
               <div className="flex items-center text-left w-full whitespace-nowrap">
                 <span className="text-xl sm:text-2xl mr-2">📍</span>
-                <span>Batkhela, Malakand</span>
+                <span>Batkhela, Malakand, KPk, Pakistan</span>
               </div>
 
               <div className="pt-6 border-t border-white/5 w-full text-left">

@@ -46,7 +46,7 @@ function Tools() {
           {/* Content Tools */}
           <div
             className="glass rounded-3xl p-8 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(37,99,235,.3)]"
-            data-aos="fade-left"
+            data-aos="fade-right"
           >
             <h3 className="text-2xl font-bold mb-8 text-center">
               Content Tools
