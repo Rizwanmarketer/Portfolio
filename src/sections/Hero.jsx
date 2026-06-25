@@ -56,9 +56,9 @@ const [learningCount, setLearningCount] = useState(0);
             setCertCount(Math.min(Math.floor(cert), 3));
           }
 
-          if (skills < 18) {
+          if (skills < 5) {
             skills += 0.35;
-            setSkillsCount(Math.min(Math.floor(skills), 18));
+            setSkillsCount(Math.min(Math.floor(skills), 5));
           }
 
           if (tools < 12) {
@@ -80,7 +80,7 @@ const [learningCount, setLearningCount] = useState(0);
             clearInterval(timer);
           }
 
-        }, 30);
+        }, 50);
 
         observer.disconnect();
 
