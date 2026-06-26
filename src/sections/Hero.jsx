@@ -8,9 +8,9 @@ function Hero() {
 
   const professions = [
     "Digital Marketer",
-    "Social Media Marketer",
-    "Paid Advertising Specialist",
-    "Social Media Manager"
+    "Social Media Manager",
+    "Paid Advertiser",
+    "Social Media Marketer"
   ];
 
   const [professionIndex, setProfessionIndex] = useState(0);
