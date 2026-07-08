@@ -18,6 +18,7 @@ function Hero() {
 const [skillsCount, setSkillsCount] = useState(0);
 const [toolsCount, setToolsCount] = useState(0);
 const [learningCount, setLearningCount] = useState(0);
+const [imageLoaded, setImageLoaded] = useState(false);
 
   const heroTextRef = useRef(null);
   const heroImageRef = useRef(null);
@@ -35,6 +36,17 @@ const [learningCount, setLearningCount] = useState(0);
     return () => clearInterval(interval);
 
   }, []);
+  useEffect(() => {
+
+  const img = new Image();
+
+  img.src = profileImage;
+
+  img.onload = () => {
+    setImageLoaded(true);
+  };
+
+}, []);
 
  useEffect(() => {
 
@@ -150,20 +162,26 @@ const [learningCount, setLearningCount] = useState(0);
                     "
                   ></div>
 
-                  <img
-                    src={profileImage}
-                    alt=""
-                    className="
-                    relative
-                    h-[220px] w-[220px]
-                    md:h-[360px] md:w-[360px]
-                    rounded-full
-                    object-cover
-                    border-4
-                    border-blue-500
-                    shadow-[0_0_70px_rgba(37,99,235,.5)]
-                    "
-                  />
+                 <img
+  src={profileImage}
+  alt="Rizwan Ullah"
+  loading="eager"
+  decoding="async"
+  fetchPriority="high"
+  draggable="false"
+  className={`
+    relative
+    h-[220px] w-[220px]
+    md:h-[360px] md:w-[360px]
+    rounded-full
+    object-cover
+    border-4
+    border-blue-500
+    shadow-[0_0_70px_rgba(37,99,235,.5)]
+    transition-opacity duration-500
+    ${imageLoaded ? "opacity-100" : "opacity-0"}
+  `}
+/>
 
                 </div>
 

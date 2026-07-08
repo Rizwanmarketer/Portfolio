@@ -21,11 +21,23 @@ function App() {
   const [loading, setLoading] = useState(true);
 
 useEffect(() => {
-  const timer = setTimeout(() => {
-    setLoading(false);
-  }, 2500);
 
-  return () => clearTimeout(timer);
+  const finishLoading = () => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 400);
+  };
+
+  if (document.readyState === "complete") {
+    finishLoading();
+  } else {
+    window.addEventListener("load", finishLoading);
+  }
+
+  return () => {
+    window.removeEventListener("load", finishLoading);
+  };
+
 }, []);
 if (loading) {
   return <Loader />;
