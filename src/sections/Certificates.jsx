@@ -2,6 +2,7 @@ import SectionTitle from "../components/SectionTitle";
 import introMarketing from "../assets/certificates/introduction-to-marketing.webp";
 import uetMarketing from "../assets/certificates/uet-digital-marketing.webp";
 import digiSkillsMarketing from "../assets/certificates/digiskills-digital-marketing.webp";
+import hubspotSocialMediaCertificate from "../assets/certificates/hubspot-social-media.webp";
 
 function Certificates() {
 
@@ -29,6 +30,14 @@ organization: "DigiSkills.pk",
 image: digiSkillsMarketing,
 verifyLink:
 "https://digiskills.pk/verify/"
+},
+
+{
+  title: "Social Media Certified",
+  organization: "HubSpot Academy",
+  image: hubspotSocialMediaCertificate,
+  verifyLink:
+    "https://app-na2.hubspot.com/academy/achievements/9tq6q743/en/1/rizwan-ullah/social-media-certified",
 }
 
 ];
