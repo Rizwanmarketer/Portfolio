@@ -1,4 +1,5 @@
 import SectionTitle from "../components/SectionTitle";
+import communicationAndSoftSkills from "../assets/certificates/communication-and-soft-skills.webp";
 import introMarketing from "../assets/certificates/introduction-to-marketing.webp";
 import uetMarketing from "../assets/certificates/uet-digital-marketing.webp";
 import digiSkillsMarketing from "../assets/certificates/digiskills-digital-marketing.webp";
@@ -9,12 +10,20 @@ function Certificates() {
 const certificates = [
 
 {
+  title: "Communication & Soft Skills",
+  organization: "DigiSkills.pk",
+  image: communicationAndSoftSkills,
+  verifyLink: "https://digiskills.pk/verify/"
+},
+
+{
 title: "Introduction to Marketing",
 organization: "The Wharton School, University of Pennsylvania",
 image: introMarketing,
 verifyLink:
 "https://www.coursera.org/account/accomplishments/verify/JZ2XXF6JTPWI"
 },
+
 
 {
 title: "Digital Marketing Physical Training Program",
